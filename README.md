@@ -287,8 +287,8 @@
             <input type="password" id="api-key-input" placeholder="Apni API key yahan daalein">
             
             <label>Gemini Model:</label>
-            <select id="model-select">
-                <option value="gemini-2.5-flash">gemini-2.5-flash (Recommended)</option>
+            let selectedModel = localStorage.getItem("jarvis_model") || "gemini-1.5-flash";
+
                 <option value="gemini-1.5-flash">gemini-1.5-flash</option>
             </select>
 

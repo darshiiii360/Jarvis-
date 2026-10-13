@@ -289,6 +289,7 @@
             <label>Gemini Model:</label>
             let selectedModel = localStorage.getItem("jarvis_model") || "gemini-1.5-flash";
 
+
                 <option value="gemini-1.5-flash">gemini-1.5-flash</option>
             </select>
 
